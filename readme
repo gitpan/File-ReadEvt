@@ -1,0 +1,40 @@
+NAME
+    File::ReadEvt
+
+VERSION
+    Version 0.1
+
+DESCRIPTION
+    File::ReadEvt - Perl module to parse parse/read Windows Event Log 
+    files without using the MS Windows API.  This is useful in cases in which
+    the Event Log files are determined by the MS API (ie, EventViewer, psloglist.exe
+    from SysInternals.com) to be corrupt.  
+    
+    This module provides the functions and basis for tools to parse Event Log files via
+    web-based (PHP) interfaces, as well as for dumping to another format (.txt, .xls), and
+    deriving statistics.
+
+DEPENDENCIES
+    Exporter
+    Carp
+    
+SYNOPSIS
+    See example files
+
+REFERENCES
+    EventLogRecord structure
+    http://msdn.microsoft.com/library/en-us/debug/base/eventlogrecord_str.asp
+
+AUTHOR
+    Harlan Carvey, <keydet89 at yahoo dot com>
+
+BUGS
+    Please report any bugs and feature requests to keydet89 at yahoo dot
+    com.
+
+COPYRIGHT AND LICENSE
+    Copyright (C) 2006 by Harlan Carvey (keydet89 at yahoo dot com)
+
+    This library is free software; you can redistribute it and/or modify it
+    as you like. However, please be sure to provide proper credit where it
+    is due.
